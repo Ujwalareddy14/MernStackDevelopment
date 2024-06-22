@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+pre::first-letter{
+color: #db0b0b;
+font-size: 40px;
+}
+
+
+pre::first-line{
+color: #328ca0;
+font-weight: bold;
+font-size: larger;
+}
+
+pre::before{
+color: #000; 
+content: "Quote of the day::  ";
+}
+
+pre::after{
+color: #a43882;
+content: "End";
+font-size: 50px;
+}
+
+::marker{
+color: #f85808;
+font-size: 30px;
+
+}
+
+pre::selection{
+color: #1b9b19;
+
+}
+
+a:link{
+    color: #000;
+    font-size: xx-large;
+    font-weight: 200;
+    font-style: oblique;
+}
+
+a:visited{
+    color: #129d30;
+}
+
+a:hover{
+    color: #f70606;
+}
+a:active{
+    color: #faef27;
+}
+
+input:focus{
+    background-color: aqua;
+}
+input:active{
+    background-color: red;
+}
+

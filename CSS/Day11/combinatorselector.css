@@ -1,0 +1,33 @@
+/* 1. descendent selector */
+
+div p
+{
+ background-color: blue;
+}
+
+
+
+/* child selector */
+
+/* div > p
+{
+    background-color: brown;
+} */
+
+
+/* adjacent selector */
+
+/* div + p
+{
+background-color: blueviolet;
+} */
+
+
+
+
+/* general sibiling selector */
+/* div ~ p
+{
+background-color: blueviolet;
+} */
+

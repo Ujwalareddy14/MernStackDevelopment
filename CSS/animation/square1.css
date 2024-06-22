@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animated-sqaure{
+    height: 200px;
+    width: 200px;
+    background-color: azure;
+    animation:squaretocircle 1s ease-in-out 0s infinite alternate;
+}
+
+@keyframes squaretocircle{
+    0%{
+        border-radius: 50% 0 0 0;
+        background-color: red;
+    }
+
+    25%{
+        border-radius: 0 50% 0 0;
+        background-color: green;
+    }
+
+    50%{
+        border-radius: 0 0 50% 0;
+        background-color: blueviolet;
+    }
+
+    100%{
+        border-radius: 0 0 0 50%;
+        background-color: hotpink;
+    }
+
+}

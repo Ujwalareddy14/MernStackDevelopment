@@ -1,0 +1,17 @@
+.text
+{
+    font-size: 100px;
+    background-size: contain;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    background-image: url(./flag.jpg);
+
+}   
+body
+{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(179, 175, 170);
+}

@@ -1,0 +1,79 @@
+/* body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heart{
+    font-size: 150px;
+    animation-name: heart;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}  */
+
+/* .heart
+{
+    font-size: 200px;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+} */
+ /* @keyframes heart{
+
+    from{
+        font-size: 150px;
+    }to{
+        font-size: 300px;
+    }
+}  */
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.heart{
+
+   font-size: 150px;
+    animation: heart 1s ease-in-out 0s infinite alternate ;
+}
+
+@keyframes heart
+{
+    transform{
+        font-size: 150px;
+    }
+    to{
+        font-size: 400px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

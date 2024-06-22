@@ -1,0 +1,15 @@
+div{
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 1700px;
+    background-image: url("./dog.webp");
+    background-position: center;
+    /* background-position:left; */
+    /* background-position:right; */
+    /* background-size: contain; */
+    /* background-size: auto; */
+    background-size: cover; 
+     background-repeat: no-repeat;
+    background-attachment: fixed; 
+    /* background-attachment: scroll;*/
+}

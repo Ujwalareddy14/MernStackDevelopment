@@ -1,0 +1,72 @@
+ body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.animated-square{
+    height: 300px;
+    width: 300px;
+    animation-name:squareToCircle;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    background-image: radial-gradient(rgba(211, 54, 54, 0.71) , rgba(98, 229, 98, 0.856) , rgba(46, 46, 216, 0.849) );
+} 
+
+
+
+ @keyframes squareToCircle{
+ 
+ 
+ 0%, 10%{
+        border-radius: 0 0 0 0 ;
+    }
+    10%, 20%{
+        border-radius: 50% 0 0 0 ;
+    }
+    20%, 30%{
+        border-radius: 0 50% 0 0 ;
+    }
+    30%, 40%{
+        border-radius: 0 0 50% 0 ;
+    }
+    40%, 50%{
+        border-radius: 0 0 0 50% ;
+        
+    }
+    50%, 60%{
+        border-radius: 0 0 0 0 ;
+    }
+    60%, 70%{
+        border-radius: 50% 0 0 0 ;
+    }
+    70%, 80%{
+        border-radius: 0 50% 0 0 ;
+    }
+    80%, 90%{
+        border-radius: 0 0 50% 0 ;
+    }
+    90%, 100%{
+        border-radius: 0 0 0 50% ;
+    }
+    0% {
+        background-color: red;
+    }
+    25%{
+        background-color:blue;
+    }
+    50%{
+        background-color: orange;
+    }
+    75%{
+        background-color: skyblue;
+    }
+    100%{
+        background-color: greenyellow;
+    }
+    
+
+ }

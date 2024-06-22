@@ -1,0 +1,58 @@
+/* div{
+    height: 500px;
+    width: 500px;
+    background-image: linear-gradient(rgba(172, 117, 117, 0.863), rgba(175, 175, 211, 0.819) , rgba(179, 247, 179, 0.929) ), url('./dog.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+} */
+
+/* div{
+    height: 500px;
+    width: 500px;
+    background-image: linear-gradient(rgba(200, 0, 0, 0.716), rgba(4, 4, 149, 0.819) , rgba(2, 175, 2, 0.929) );
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+} */
+
+div{
+    height: 500px;
+    width: 500px;
+    background-image: radial-gradient(rgba(243, 0, 0, 0.863), rgba(1, 1, 106, 0.819) , rgba(0, 125, 0, 0.929));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+/* div{
+    height: 500px;
+    width: 500px;
+    background-image:repeating-radial-gradient(rgba(243, 0, 0, 0.863), rgba(1, 1, 106, 0.819) , rgba(0, 125, 0, 0.929), rgb(249, 249, 5));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+} */
+
+/* div{
+    width: 600px;
+    height: 500px;
+    background-image: repeating-linear-gradient(rgba(223, 145, 145, 0.64) , rgb(180, 206, 180) , rgb(132, 132, 175) 30% ) , url("./dog.webp");
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+} */
+
+div{
+    border: 2px solid blue ;
+    height: 400px;
+    width: 500px;
+    background-image:repeating-radial-gradient(rgba(225, 0, 0, 0.44) , rgba(1, 128, 1, 0.495) , rgba(0, 0, 212, 0.347) 50%), url("./dog.webp") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

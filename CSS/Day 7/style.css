@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-size: 13.5pt;
+        font-family: 'Yanone Kaffeesatz';
+        line-height: 1.85em;
+        font-weight: 300;
+}
+
+.nav{
+    /* border: 2px solid red; */
+    height:120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(47 52 56);
+}
+.navcontainer{
+    /* border: 2px solid black; */
+    width: 85%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    /* border: 2px solid blue; */
+    width: 20%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.navitems{
+    /* border: 2px solid blue; */
+    width: 60%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navitems ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.navitems a{
+    text-decoration: none;
+    color: rgba(245, 245, 245, 0.673);
+    font-size: larger;
+}
+.navitems a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.container{
+    /* border: 2px solid red; */
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3e4649;
+    border-top: 1px solid rgb(116, 116, 116);
+}
+.content{
+    /* border: 2px solid black; */
+    height: 250px;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.display1{
+    /* border: 2px solid blue; */
+    height: inherit;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    color: #fff;
+}
+button{
+    width: 40%;
+    height: 25%;
+    background-color: #ed391b;
+    color: #fff;
+    border-radius: 10px;
+    font-size: larger;
+}
+button:hover{
+    background-color: #ed3a1ba8;
+    transition-duration: 2s;
+}
+
+.display2{
+    border: 10px solid #fff;
+    height: inherit;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:30px;
+    background: url(https://html5up.net/uploads/demos/halcyonic/images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cards{
+    /* border: 2px solid black; */
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #31383c;
+    color:whitesmoke;
+    font-size: medium;
+    border-top: 1px solid rgb(116, 116, 116);
+}
+.card{
+  /* border: 2px solid red; */
+  height: 300px;
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info{
+    /* border:2px solid blueviolet; */
+    width: 23%;
+    height:inherit;
+    display: flex;
+    flex-direction: column;
+}
+.info img{
+    border:10px solid #fff;
+}
+.info p{
+    color: rgba(245, 245, 245, 0.659);
+}

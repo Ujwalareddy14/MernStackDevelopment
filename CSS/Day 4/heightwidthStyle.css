@@ -1,0 +1,11 @@
+div{
+    
+    border: 2px Solid blue;
+    height: 400px;
+    width: 500px;
+    max-width: 600px;
+    max-height: 500px;
+    min-width: 100px;
+    min-height: 200px;
+
+}

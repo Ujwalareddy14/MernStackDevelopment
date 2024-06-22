@@ -1,0 +1,22 @@
+.parent
+{
+    margin: 100px auto;
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    
+
+}
+
+.child
+{
+    height:0px;
+    background: #fdfafa;
+    margin: 20px auto;
+    transition: height 3s;
+}
+
+.parent:hover .child
+{
+    height:100%;
+}

@@ -1,0 +1,9 @@
+div{
+    /* border: 20px solid red; */
+    /* border: 20px dotted crimson; */
+    /* border: 50px ridge blueviolet ; */
+    /* border: 15px double blue; */
+    border: 20px groove red;
+    height: 400px;
+    width: 400px;
+}

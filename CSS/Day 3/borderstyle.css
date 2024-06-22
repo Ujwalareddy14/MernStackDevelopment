@@ -1,0 +1,11 @@
+div{
+    border: 2px solid red;
+    width: 550px;
+    /* text-wrap:pretty; */
+    /* text-wrap: nowrap; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* text-overflow: clip;  */
+     /* text-overflow: ellipsis; */
+    /* writing-mode: vertical-lr; */
+}

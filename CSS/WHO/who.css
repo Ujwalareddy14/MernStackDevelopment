@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#footerContainer{
+    /* border: 2px solid red; */
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c2b64;
+}
+
+.mainContainer{
+    /* border: 2px solid black; */
+    width: 90%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.cards{
+    /* border: 2px solid blue; */
+    width: 24%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.cards h1 a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    transition: all;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out;
+}
+
+.cards h1 a:hover{
+    background-color: blue;
+}
+
+.cards ul{
+    display: flex;
+flex-direction: column;
+gap: 24px;
+    font-size: 20px;
+}
+
+.cards ul li{
+    list-style: none;
+}
+
+.cards ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    transition: all;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out;
+}
+
+.cards ul li a:hover{
+    background-color: blue;
+}
+.cards1{
+
+        /* border: 2px solid blue; */
+        width: 24%;
+        height: inherit;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+}
+
+.cards1 h1 a{
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    width: 250px;
+    background-color: #274375;
+    color: white;
+    border: 1px solid #274375;
+    height: 40px;
+    cursor: pointer;
+}
+
+button:hover{
+    border: 1px solid blue;
+}
+
+
+#lastFooter{
+    /* border: 2px solid red; */
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #0c2b64;
+}
+
+#lastFooter svg{
+height: 100%;
+fill: white;
+}
+
+
+.lastIconDiv{
+    /* border: 2px solid red; */
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+    ;
+    background-color: #274375;
+}
+
+.icons{
+    /* border: 2px solid black; */
+    width: 90%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first{
+    width: 20%;
+    height: inherit;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.first h1 a{
+    text-decoration: none;
+    color: white;
+}
+.second{
+    width: 60%;
+    height: inherit;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+
+}
+.second i{
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+.second i:hover{
+    color: yellow;
+}
+
+.third{
+    width: 20%;
+    height: inherit;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    color:white;
+}
+
+.third a{
+    text-decoration: none;
+    color: white;
+}

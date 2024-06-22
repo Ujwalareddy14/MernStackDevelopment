@@ -1,0 +1,41 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+.animated-circle
+{
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-top: 50px solid red;
+    border-bottom: 50px solid green;
+    border-left: 50px solid blue;
+    border-right: 50px solid pink;
+    animation-name: animatedCircle;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animatedCircle
+{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

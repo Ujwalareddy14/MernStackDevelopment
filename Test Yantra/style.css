@@ -1,0 +1,100 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Yanone Kaffeesatz';
+    line-height: 1.85em;
+    font-weight: 600;
+
+}
+
+.navbar
+{
+    /* border: 2px solid red; */
+    height: 130px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.navbar .navcontainer
+{
+    /* border: 2px solid rgb(50, 212, 10); */
+    height: 85px;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+   
+  
+   
+  
+}
+.navbar .navcontainer .logo{
+    /* border: 2px solid yellow; */
+    height: inherit;
+    width: 20%;
+    
+    
+}
+
+.logo img{
+    width: 65%;
+    height: 100%;
+    vertical-align: middle;
+    
+
+} 
+
+.navbar .navcontainer .navitems
+{
+    /* border: 2px solid blue; */
+    width: 85%;
+    height: inherit;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    
+}
+
+.navbar .navcontainer .navitems ul{
+    list-style-type: none;
+     display: flex;
+     justify-content: center;
+     gap:90px
+}
+
+
+
+
+.navbar .navcontainer .navitems ul li a{
+    font-size: 25px;
+    text-decoration: none ;
+    color: #133864;
+    cursor: pointer;
+}
+
+.navbar .navcontainer .navitems ul li a:hover{
+    color: #f27f3d;
+}
+
+.navbar .navcontainer .navitems ul li a button{
+    border-radius: 20px;
+    background-color: #f27f3d;
+    color: white;
+    font-weight: 600;
+   width: 200px;
+   text-decoration: none;
+   border: none;
+    
+}
+
+.navbar .navcontainer .navitems ul li a button:hover
+{
+background-color:#133864;
+}

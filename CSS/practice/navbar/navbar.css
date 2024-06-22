@@ -1,0 +1,78 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav
+{
+    /* border: 3px solid black; */
+    height: 15opx;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(4, 109, 114);
+    
+}
+
+.navContainer
+{
+    /* border: 4px dotted red; */
+    height: 150px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.logo
+{
+height: inherit;
+width: 20%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.logo h1 a
+{
+    text-decoration: none;
+    color: rgb(249, 238, 238);
+    font-size: 20px;
+}
+
+.navitems
+{
+    /* border:2px blue solid ; */
+    height: inherit;
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+
+}
+
+.navitems ul
+{
+
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.navitems ul li
+{
+    list-style: none;
+}
+
+.navitems ul li a
+{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+}
